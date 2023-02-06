@@ -14,23 +14,13 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        Focused on leveraging on my deep drive and passion for creativity and dynamism. I am a highly positive individual who believes strongly that acquiring new skills and knowledge is the basis of any meaningful and tangible development. Aiming to explore the field of software development in order to make tangible impact on my immediate environment and the world at large.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          I have taken several certification courses, thereby making me fully equiped and ever ready to face the task ahead.
         </p>
       </div>
     </div>

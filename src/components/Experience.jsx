@@ -14,13 +14,13 @@ const Experience = () => {
     {
       id: 1,
       src: html,
-      title: "HTML",
+      title: "HTML5",
       style: "shadow-orange-500",
     },
     {
       id: 2,
       src: css,
-      title: "CSS",
+      title: "CSS3",
       style: "shadow-blue-500",
     },
     {
@@ -41,18 +41,18 @@ const Experience = () => {
       title: "Tailwind",
       style: "shadow-sky-400",
     },
-    {
-      id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
-    },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
+    // {
+    //   id: 6,
+    //   src: nextjs,
+    //   title: "Next JS",
+    //   style: "shadow-white",
+    // },
+    // {
+    //   id: 7,
+    //   src: graphql,
+    //   title: "GraphQL",
+    //   style: "shadow-pink-400",
+    // },
     {
       id: 8,
       src: github,
