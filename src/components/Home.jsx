@@ -35,8 +35,9 @@ const Home = () => {
 
         <div>
           <img
-            src={MyMirror}
+            src= {MyMirror}
             alt="my profile"
+            style = {{width: 350}}
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
