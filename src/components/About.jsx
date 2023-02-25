@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Focused on leveraging on my deep drive and passion for creativity and dynamism. I am a highly positive individual who believes strongly that acquiring new skills and knowledge is the basis of any meaningful and tangible development. Aiming to explore the field of software development in order to make tangible impact on my immediate environment and the world at large.
+        Focused on leveraging on my deep drive and passion for creativity and dynamism. I am a highly positive, curiosity-driven individual who believes strongly that acquiring new skills and knowledge is the basis of any meaningful and tangible development. Aiming to explore the field of software development in order to make tangible impact on my immediate environment and the world at large.
         </p>
 
         <br />

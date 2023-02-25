@@ -1,8 +1,8 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import currency from "../assets/portfolio/currency.png";
+import websitescroll from "../assets/portfolio/websitescroll.png";
+import piggame from "../assets/portfolio/piggame.png";
+// import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -10,24 +10,26 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: currency,
+      // code: "https://github.com/moshood2357/currency-converter",
+      // demo: "https://currencyconverter-1.netlify.app/"
     },
     {
       id: 2,
-      src: reactParallax,
+      src: websitescroll,
     },
     {
       id: 3,
-      src: navbar,
+      src: piggame
     },
     {
       id: 4,
       src: reactSmooth,
     },
-    {
-      id: 5,
-      src: installNode,
-    },
+    // {
+    //   id: 5,
+    //   src: installNode,
+    // },
     {
       id: 6,
       src: reactWeather,
@@ -59,8 +61,8 @@ const Portfolio = () => {
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                <button  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                 Code
                 </button>
               </div>
             </div>
