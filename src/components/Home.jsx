@@ -18,7 +18,7 @@ const Home = () => {
           Focused on leveraging on my passion and deep drive for creativity and dynamism to become a renowned and well-grounded Software Developer. I am proficient in the use of HTML5, CSS3, JavaScript, React,Tailwind and React-Native.
           </p>
 
-          <div className = "flex ">
+          <div className = "flex">
           <div>
             <Link
               to="portfolio"

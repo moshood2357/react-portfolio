@@ -18,12 +18,12 @@ const Portfolio = () => {
       id: 2,
       src: websitescroll,
       code: "https://www.google.com",
-      demo: "https://www.google.com"
+      demo: "https://www.google.com",git push 
     },
     {
       id: 3,
       src: piggame,
-      code: "https://www.google.com",
+      code: "https://github.com/moshood2357/updated-pig-game",
       demo: "https://wummi2.netlify.app/"
     },
     {
