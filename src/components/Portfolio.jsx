@@ -17,8 +17,8 @@ const Portfolio = () => {
     {
       id: 2,
       src: websitescroll,
-      code: "https://www.google.com",
-      demo: "https://www.google.com",git push 
+      code: "https://github.com/moshood2357/scroll-website",
+      demo: "https://myscrollwebsite.netlify.app/", 
     },
     {
       id: 3,
