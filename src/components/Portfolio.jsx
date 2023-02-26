@@ -11,16 +11,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: currency,
-      // code: "https://github.com/moshood2357/currency-converter",
-      // demo: "https://currencyconverter-1.netlify.app/"
+      code: "https://github.com/moshood2357/currency-converter",
+       demo: "https://currencyconverter-1.netlify.app/"
     },
     {
       id: 2,
       src: websitescroll,
+      code: "https://www.google.com",
+      demo: "https://www.google.com"
     },
     {
       id: 3,
-      src: piggame
+      src: piggame,
+      code: "https://www.google.com",
+      demo: "https://wummi2.netlify.app/"
     },
     {
       id: 4,
@@ -50,7 +54,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(( {id, src, code, demo}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -58,12 +62,17 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                 Code
-                </button>
+                <a href = {demo}> 
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                </a>
+                <a href = {code}>
+                  <button  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Code
+                  </button>
+                </a>
+                
               </div>
             </div>
           ))}

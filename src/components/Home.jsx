@@ -18,12 +18,13 @@ const Home = () => {
           Focused on leveraging on my passion and deep drive for creativity and dynamism to become a renowned and well-grounded Software Developer. I am proficient in the use of HTML5, CSS3, JavaScript, React,Tailwind and React-Native.
           </p>
 
+          <div className = "flex ">
           <div>
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 mx-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
@@ -31,6 +32,15 @@ const Home = () => {
               </span>
             </Link>
           </div>
+
+          <div>
+            <a href = "/">
+              <button className = "group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">WhatsApp</button>
+            </a>
+          </div>
+          </div>
+
+          
         </div>
 
         <div>
