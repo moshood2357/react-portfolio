@@ -24,7 +24,7 @@ const Portfolio = () => {
       id: 3,
       src: piggame,
       code: "https://github.com/moshood2357/updated-pig-game",
-      demo: "https://wummi2.netlify.app/"
+      demo: "https://wunmi2.netlify.app/"
     },
     {
       id: 4,
