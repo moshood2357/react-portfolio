@@ -3,7 +3,7 @@ import currency from "../assets/portfolio/currency.png";
 import websitescroll from "../assets/portfolio/websitescroll.png";
 import piggame from "../assets/portfolio/piggame.png";
 // import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import tiideHR from "../assets/portfolio/tiideHR.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
@@ -20,22 +20,24 @@ const Portfolio = () => {
       code: "https://github.com/moshood2357/scroll-website",
       demo: "https://myscrollwebsite.netlify.app/", 
     },
+
     {
       id: 3,
       src: piggame,
       code: "https://github.com/moshood2357/updated-pig-game",
       demo: "https://wunmi2.netlify.app/"
     },
-    {
-      id: 4,
-      src: reactSmooth,
+    {id: 4,
+      src: tiideHR,
+      code: "https://github.com/Tiidelab-Fellowship/tiide-hr-react-fe",
+      demo: "https://tiide-hr.netlify.app/"
     },
     // {
     //   id: 5,
     //   src: installNode,
     // },
     {
-      id: 6,
+      id: 5,
       src: reactWeather,
     },
   ];
